@@ -1,0 +1,112 @@
+/* Font Import: Montserrat */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* Landing Styles */
+
+.App {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+
+ul {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+li {
+  margin: 4rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav div {
+  display: inline;
+  margin-left: 86.5rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1500px) {
+  .nav div {
+    margin-left: 60rem;
+  }
+}
+
+.pages-container {
+  margin-left: 6rem;
+}
+
+.pages-container span {
+  padding-right: 10px;
+}
+
+.pages-container a {
+  padding: 5px;
+}
+
+/* User Detail Styles */
+
+.detail-container {
+  text-align: center;
+}
+
+.subcontainer {
+  margin-top: 2.5rem;
+}
+
+.subcontainer div {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+button {
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+  background-color: #3abef2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bio {
+  width: 30rem;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+/* UserCard Styles */
+
+.list-image-container {
+  margin-right: 1rem;
+}
+
+.list-image-container img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 250px;
+}
+
+.image-container img {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 250px;
+}
+
+.info-container {
+  margin-top: 12px;
+}
